@@ -18,6 +18,29 @@ The infrastructure includes:
 * Two private EC2 instances
 * Terraform outputs and state management
 
+
+## Infrastructure Screenshots
+
+The following screenshots demonstrate the AWS infrastructure provisioned and managed using Terraform.
+
+### 1. VPC and Network Architecture
+
+![AWS VPC](screenshots/terraform-vpc-created.png)
+
+### 2. Multi-AZ Subnets
+
+![Public and Private Subnets](screenshots/aws-terraform-subnets-overview.png)
+
+### 3. NAT Gateways
+
+![AWS NAT Gateways](screenshots/terraform-nat-gateways.png)
+
+### 4. EC2 Instances
+
+![Terraform EC2 Instances](screenshots/terraform-ec2-instances.png)
+
+
+
 ## Architecture
 
 ```text
